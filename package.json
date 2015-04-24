@@ -1,0 +1,24 @@
+{
+  "name": "tips",
+  "version": "0.0.0",
+  "description": "Slack inspired onboarding tips",
+  "main": "tips.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rguerrettaz/tips.git"
+  },
+  "keywords": [
+    "tips",
+    "onboarding",
+    "guiders"
+  ],
+  "author": "Ryan Guerrettaz <rguerrettaz@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rguerrettaz/tips/issues"
+  },
+  "homepage": "https://github.com/rguerrettaz/tips"
+}

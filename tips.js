@@ -580,3 +580,5 @@
   window.Tips.reset()
 
 })(window);
+
+module.exports = Tips
