@@ -1,0 +1,64 @@
+Current Place
+
+Next steps:
+- Figure out how image works. DO I have to host it somewhere? How does jquery do this?
+- Write README
+- Push to Github
+- submit PR for Anthony and Channing and Travis and Gilbert to review
+- Add to NPM
+- Add to Rubygems
+
+Future:
+- Add validations for tip config
+- Add thorough commenting
+- if header is over 1 line then use ... and show warning
+- if body is over 5 lines then use ... and show warning
+- Write Specs
+- Create CodePen example page
+- colors for hotspots. How can we allow any color?
+- user can customize button colors
+- add support for a sleep between showing hotspots
+- Add smoother transitions
+- support for tip positions left-top, left-bottom, top-left, toip-right, right-top, right-bottom, bottom-left, bottom-right
+- Analytics
+- Store which websites are using tips.js
+- modal should never be off the page: must set pointer dynamically to do this.
+- handle modal width and height properly - how much text, where should pointer be
+- support to show a logo
+- Add ability to reveal all hotspots at once or reveal one at a time
+- Position throbber by default in most strategic place
+- Position modal by default in most strategic place
+- Modal pointer should be in optimal place
+- Support for multiple screen sizes - make it responsive
+- Shouldn't have to define number of pages
+
+DONE
+- Find exact position of element and overlay throbber on top
+- Figure how to handle left, right, top, bottom
+- Add listener to throbber. On click - show modal, hide throbber.
+- On click of 'done' - store that this tip was seen, close the tip-card
+- Add 'opt out' support
+- refactoring HotSpots
+- Grey out the background when modal showing
+- Grey out everything except the modal and the gray background
+- Allow user to click grey area to close modal
+- Position modal through settings
+- dynamically set the pointer's absolute position
+- dynamically set the pointers position as top, left, bottom, right, center
+- Tips should show one by one, with ability to set order
+- Figure out how far a user has scrolled
+- Design modal
+- add dots for navigating forward and backwards
+- support for ability to show multiple pages in single tip
+- test on other browsers
+- style - 'dot navigation'
+- fix a footer and position everything that way
+- Tests
+-- Large amount of Body/Header text
+-- having single and multiple tips (X)
+-- large number of pages (X)
+- define how tip config is set
+- refactor js
+- refactor css
+- Test in IE
+- Allow for custom storageDevice
